@@ -1,13 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://8evj55iylrtv"]
+[gd_scene load_steps=3 format=3 uid="uid://cn5ulqtf732qo"]
 
-[ext_resource type="Texture2D" uid="uid://b0unm55brnjhb" path="res://End (Idle).png" id="1_l4adk"]
+[ext_resource type="Texture2D" uid="uid://b0unm55brnjhb" path="res://End (Idle).png" id="1_b0gdk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_or581"]
 size = Vector2(46, 44)
 
 [node name="Sprite2D" type="Sprite2D"]
 texture_filter = 2
-texture = ExtResource("1_l4adk")
+texture = ExtResource("1_b0gdk")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 10)
